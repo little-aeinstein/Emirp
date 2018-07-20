@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "Driver.h"
+#include "Prime.h"
 #include "Reverse.h"
 int main(){
     int num;

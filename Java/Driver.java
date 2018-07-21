@@ -6,6 +6,7 @@ public class Driver{
         for(int num = 1; num <= 100; num++){
             if(p.isPrime(num)){
                 int revNum = r.getReverse(num);
+                if(revNum == num) continue;
                 if(p.isPrime(revNum)) System.out.println(num);
             }
         }

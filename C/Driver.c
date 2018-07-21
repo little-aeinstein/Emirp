@@ -7,6 +7,7 @@ int main(){
     for(num = 1; num <= 100; num++){
         if(isPrime(num)){
             revNum = getReverse(num);
+            if(revNum == num) continue;
             if(isPrime(revNum)) printf("%d\n", num);
         }
     }
